@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home/home.component';
 import { ExoplanetsComponent } from './exoplanets/exoplanets.component';
 import { DetailsDialogComponent } from './details-dialog/details-dialog.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -11,7 +12,8 @@ import { DetailsDialogComponent } from './details-dialog/details-dialog.componen
   declarations: [
     HomeComponent,
     ExoplanetsComponent,
-    DetailsDialogComponent
+    DetailsDialogComponent,
+    NotFoundComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { DetailsDialogComponent } from './details-dialog/details-dialog.componen
   exports: [
     HomeComponent,
     ExoplanetsComponent,
-    DetailsDialogComponent
+    DetailsDialogComponent,
+    NotFoundComponent
   ]
 })
 export class PagesModule { }

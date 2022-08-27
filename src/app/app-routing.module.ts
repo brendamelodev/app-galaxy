@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ExoplanetsComponent } from './pages/exoplanets/exoplanets.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NgModule } from '@angular/core';
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: "exoplanets",
     component: ExoplanetsComponent
+  },
+  {
+    path: "**",
+    component: NotFoundComponent
   }
 ];
 
